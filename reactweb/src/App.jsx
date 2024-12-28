@@ -1,7 +1,8 @@
+import Fruits from "./components/Fruits";
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <Fruits></Fruits>
     </>
   );
 }
