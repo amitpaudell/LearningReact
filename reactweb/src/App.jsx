@@ -2,7 +2,7 @@ import Fruits from "./components/Fruits";
 function App() {
   return (
     <>
-      <Fruits></Fruits>
+      <Fruits />
     </>
   );
 }
