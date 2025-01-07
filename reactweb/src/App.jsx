@@ -1,8 +1,9 @@
-import Fruits from "./components/Fruits";
+import Message from "./components/Message";
+import Form from "./components/Form";
 function App() {
   return (
     <>
-      <Fruits />
+      <Form></Form>
     </>
   );
 }
