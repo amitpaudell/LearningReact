@@ -1,13 +1,17 @@
-import Message from "./components/Message";
-import Form from "./components/Form";
-import InnerComponent from "./components/InnerComponent";
-import OuterComponent from "./components/OuterComponent";
+import Parent from "./components/Parent";
+import Child from "./components/Child";
+import UseReducer from "./components/UseReducer";
 function App() {
+  const parentOperation = () => {
+    console.log("Clicked");
+  };
   return (
     <>
-      <Form></Form>
-      <InnerComponent></InnerComponent>
-      <OuterComponent></OuterComponent>
+      <Parent>
+        <Child executeOperation={parentOperation}></Child>
+      </Parent>
+
+      <UseReducer></UseReducer>
     </>
   );
 }
